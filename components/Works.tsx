@@ -13,7 +13,7 @@ function Works() {
             key={work.title}
             className='black_border rounded-lg w-[30%] max-sm:w-11/12 max-md:w-10/12 max-lg:w-3/5'
           >
-            <div className='black_border rounded-lg m-8 p-2'>
+            <div className='rounded-lg p-1'>
               <Image
                 src={work.imgUrl}
                 alt={work.title}
