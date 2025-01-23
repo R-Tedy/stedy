@@ -9,34 +9,36 @@ body {
 }
 .heading_font{
  font-family: Train One;
- font-size: 4rem;
+ font-size: 3rem;
  text-transform: uppercase;
 }
+
+
 .sub_heading{
   font-family: Gentium Plus;
-  font-size: 24;
+  font-size: 1.375rem;
   font-weight: bold;
 }
 .sub_heading2{
   font-family: Gentium Plus;
-  font-size: 22;
+  font-size: 1.25rem;
   font-weight: bold;
   font-style: italic;
 }
 .sub_heading3{
   font-family: Gentium Plus;
-  font-size: 22;
+  font-size: 1.25rem;
   font-style: italic;
 }
 .heading3{
   font-family: Gentium Plus;
-  font-size: 20;
+  font-size: 1.125rem;
   font-weight: bold;
   /* font-style: italic; */
 }
 .font_regular{
   font-family: Gentium Plus;
-  font-size: 18;
+  font-size: 1rem;
 }
 
 @layer base {
