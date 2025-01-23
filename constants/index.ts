@@ -104,26 +104,26 @@ export const WorksLinks = [
     siteUrl:'https://stedyrun.vercel.app/',
     detailsUrl: '/',
   },
-  {
-    imgUrl: '/run.png',
-    title: 'StedyRun2',
-    urlTitle: 'stedyrun.vercel.app',
-    description: 'This is an App that showcases a product. It is a one page app that has a hero, about, details and call to action pages. Hope you like it.',
-    languages: '#Next.js #TypeScript #Tailwind #Sanityui',
-    siteUrl:'https://stedyrun.vercel.app/',
-    detailsUrl: '/',
-  },
+  // {
+  //   imgUrl: '/run.png',
+  //   title: 'StedyRun2',
+  //   urlTitle: 'stedyrun.vercel.app',
+  //   description: 'This is an App that showcases a product. It is a one page app that has a hero, about, details and call to action pages. Hope you like it.',
+  //   languages: '#Next.js #TypeScript #Tailwind #Sanityui',
+  //   siteUrl:'https://stedyrun.vercel.app/',
+  //   detailsUrl: '/',
+  // },
 ]
 
 export const FeedbackDetails = [
   {
     comment: 'I loved a Chance to work on my business with Stedy. It took time, it seemed impossible but we made it. I love the persistence and commitment and I would recommend him for your next big idea. ',
-    commentor: 'Augustus Stedy',
+    commentor: 'Augustus',
   },
-  {
-    comment: 'I loved a Chance to work on my business with Stedy. It took time, it seemed impossible but we made it. I love the persistence and commitment and I would recommend him for your next big idea. ',
-    commentor: 'Augustus Stedy',
-  },
+  // {
+  //   comment: 'I loved a Chance to work on my business with Stedy. It took time, it seemed impossible but we made it. I love the persistence and commitment and I would recommend him for your next big idea. ',
+  //   commentor: 'Augustus Stedy',
+  // },
 ]
 
 export const contactInstructions = [
