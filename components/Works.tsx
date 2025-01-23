@@ -35,7 +35,7 @@ function Works() {
               <p className='font_regular text-center p-2'>
                 {work.languages}
               </p>
-              <div className='flex justify-between p-2'>
+              <div className='flex justify-between p-2 max-sm:flex-col max-sm:gap-2'>
                 <Link href={work.siteUrl} target='blank' className='black_border px-4 py-2'>Check Site</Link>
                 <Link href={work.detailsUrl} className='black_border px-4 py-2'>Project Details</Link>
               </div>
