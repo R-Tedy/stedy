@@ -21,11 +21,11 @@ function About() {
             </div>
             <div className='flex flex-col gap-3'>
               <div className='profCard'>
-                <h3 className='font-semibold'>Electrical and Electronics Engineering</h3>
+                <h3 className='font-semibold font_regular'>Electrical and Electronics Engineering</h3>
                 <p className='font_regular'>I have a Bachelor of Science Degree in Electrical and Electronics Engineering from The Dedan Kimathi University of Technology.</p>
               </div>
               <div className='profCard'>
-                <h3 className='font-semibold'>Software Engineering</h3>
+                <h3 className='font-semibold font_regular'>Software Engineering</h3>
                 <p className='font_regular'>I am a self taught software developer. I can comfortably handle Javascript, TypeScript, HTML and CSS projects. I can use Next.js to create full stack web applications and React native to create mobile  Application. I can also.....</p>
               </div>
             </div>
