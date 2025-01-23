@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import { Button } from './ui/button'
 import { HobbiesLink, SkillsLinks, TalentsLink } from '@/constants'
 import Image from 'next/image'
 
