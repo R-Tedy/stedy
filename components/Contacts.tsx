@@ -36,7 +36,7 @@ function Contacts() {
             </ol>
             <p><b>Email:</b> stedyroland@gmail.com</p>
             <p><b>Phone:</b> +254759693618</p>
-            <p><b>Phone:</b> +254759693618</p>
+            <p><b>WhatsApp:</b> +254759693618</p>
 
           </div>
         </div>
