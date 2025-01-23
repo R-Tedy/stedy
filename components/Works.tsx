@@ -22,7 +22,7 @@ function Works() {
                 className='object-cover margin w-full'
               />
             </div>
-            <div className='m-8'>
+            <div className='my-8 mx-4'>
               <h3 className='sub_heading2'>
                 {work.title}
               </h3>
