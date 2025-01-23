@@ -1,4 +1,4 @@
-import { Gentium_Plus, Train_One } from "next/font/google";
+// import { Gentium_Plus, Train_One } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 export default {
