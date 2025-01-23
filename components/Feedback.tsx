@@ -9,7 +9,7 @@ function Feedback() {
         {FeedbackDetails.map((feedback, index)=>(
           <div 
             key={index}
-            className='black_border p-5 flex flex-col h-[300] justify-center'
+            className='black_border rounded-lg p-5 flex flex-col h-[300] justify-center'
           >
             <p className='w-4/6 p-3 mb-3 font_regular'>{feedback.comment}</p>
             <h4 className='text-right mr-8 sub_heading2'>{feedback.commentor}</h4>

@@ -11,9 +11,9 @@ function Works() {
         {WorksLinks.map((work)=>(
           <div 
             key={work.title}
-            className='black_border w-[30%] max-sm:w-11/12 max-md:w-10/12 max-lg:w-3/5'
+            className='black_border rounded-lg w-[30%] max-sm:w-11/12 max-md:w-10/12 max-lg:w-3/5'
           >
-            <div className='black_border m-8 p-2'>
+            <div className='black_border rounded-lg m-8 p-2'>
               <Image
                 src={work.imgUrl}
                 alt={work.title}
@@ -36,8 +36,8 @@ function Works() {
                 {work.languages}
               </p>
               <div className='flex justify-between p-2 max-sm:flex-col max-sm:gap-2'>
-                <Link href={work.siteUrl} target='blank' className='black_border px-4 py-2'>Check Site</Link>
-                <Link href={work.detailsUrl} className='black_border px-4 py-2'>Project Details</Link>
+                <Link href={work.siteUrl} target='blank' className='black_border rounded-lg px-4 py-2'>Check Site</Link>
+                <Link href={work.detailsUrl} className='black_border rounded-lg px-4 py-2'>Project Details</Link>
               </div>
             </div>
             
