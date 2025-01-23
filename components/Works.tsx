@@ -36,8 +36,8 @@ function Works() {
                 {work.languages}
               </p>
               <div className='flex justify-between p-2 max-sm:flex-col max-sm:gap-2'>
-                <Link href={work.siteUrl} target='blank' className='black_border rounded-lg px-4 py-2'>Check Site</Link>
-                <Link href={work.detailsUrl} className='black_border rounded-lg px-4 py-2'>Project Details</Link>
+                <Link href={work.siteUrl} target='blank' className='black_border text-center rounded-lg px-4 py-2'>Check Site</Link>
+                <Link href={work.detailsUrl} className='black_border text-center rounded-lg px-4 py-2'>Project Details</Link>
               </div>
             </div>
             
