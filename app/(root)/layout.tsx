@@ -4,7 +4,7 @@ import React from 'react'
 
 function layout({children}: Readonly<{children:React.ReactNode}>) {
   return (
-    <main className='max-w-screen-2xl m-auto'>
+    <main className='max-w-screen-2xl m-auto relative'>
       <NavBar/>
       {children}
       <Footer/>
