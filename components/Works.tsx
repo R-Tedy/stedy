@@ -5,7 +5,7 @@ import React from 'react'
 
 function Works() {
   return (
-    <section className='p-4'>
+    <section id='works_hero' className='p-4'>
       <h2 className='sub_heading text-center m-8'>Here are some of my works...</h2>
       <div className='flex gap-5 justify-center flex-wrap'>
         {WorksLinks.map((work)=>(

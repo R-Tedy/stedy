@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function About() {
   return (
-    <section className='p-4'>
+    <section id='about_hero' className='p-4'>
       <h2 className='sub_heading text-center m-8'>Who am I...</h2>
       <div className='flex flex-col gap-4'>
         <div className='border-2 border-black rounded-lg p-4 '>

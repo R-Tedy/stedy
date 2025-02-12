@@ -4,7 +4,7 @@ import { contactInstructions } from '@/constants'
 
 function Contacts() {
   return (
-    <section className='p-4'>
+    <section id='contacts_hero' className='p-4'>
       <div>
         <h2 className='sub_heading text-center m-8'>How to reach me...</h2>
         <div className='flex justify-center mb-8 flex-wrap'>

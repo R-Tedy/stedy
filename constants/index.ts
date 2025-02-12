@@ -1,20 +1,20 @@
 export const NavLinks = [
   {
     label:'About Me',
-    route:'/'
+    route:'#about_hero'
   },
   {
     label:'My Works',
-    route:'/'
+    route:'#works_hero'
   },
   {
     label:'My Contacts',
-    route:'/'
+    route:'#contacts_hero'
   },
-  {
-    label:'More',
-    route:'/'
-  },
+  // {
+  //   label:'More',
+  //   route:'/'
+  // },
 ]
 
 export const TalentsLink = [
