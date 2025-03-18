@@ -1,6 +1,6 @@
 import About from "@/components/About";
 import Contacts from "@/components/Contacts";
-import Feedback from "@/components/Feedback";
+// import Feedback from "@/components/Feedback";
 import Hero from "@/components/Hero";
 import Works from "@/components/Works";
 
@@ -11,7 +11,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Works/>
-      <Feedback/>
+      {/* <Feedback/> */}
       <Contacts/>
     </>
   )

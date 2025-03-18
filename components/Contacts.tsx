@@ -1,5 +1,4 @@
 import React from 'react'
-import RequestForm from './RequestForm'
 import { contactInstructions } from '@/constants'
 
 function Contacts() {
@@ -19,11 +18,8 @@ function Contacts() {
             </label>
           </form>
         </div>
-        <div className='flex gap-8 flex-wrap max-sm:flex-col'>
-          <div className='flex-1 hidden'>
-            <RequestForm/>
-          </div>
-          <div className='flex-1 flex flex-col justify-center gap-5 font_regular'>
+        <div className='flex justify-center'>
+          <div className='flex flex-col justify-center items-center gap-5 font_regular lg:w-1/2'>
             <p>
             Hi There <br /> So this is a simple form to fill out incase you would love my help with  any big idea you might be working on and are stuck.  Here are a few pointers on how this will work:
             </p>

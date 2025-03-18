@@ -11,33 +11,35 @@ function Works() {
         {WorksLinks.map((work)=>(
           <div 
             key={work.title}
-            className='black_border rounded-lg w-[30%] max-sm:w-11/12 max-md:w-10/12 max-lg:w-3/5'
+            className='black_border rounded-lg w-80 max-sm:w-11/12 max-md:w-10/12 max-lg:w-3/5'
           >
-            <div className='rounded-lg p-1'>
+            <div className='rounded-lg p-1 m-1 h-48 border'>
               <Image
                 src={work.imgUrl}
                 alt={work.title}
                 width={400}
                 height={300}
-                className='object-cover margin w-full'
+                className='object-cover margin w-full h-full rounded-lg'
               />
             </div>
-            <div className='my-8 mx-4'>
-              <h3 className='sub_heading2'>
-                {work.title}
-              </h3>
-              <Link href={work.siteUrl} target='blank' className='sub_heading3 text-blue-400 underline'>
-                {work.urlTitle}
-              </Link>
-              <p className='font_regular'>
-                {work.description}
-              </p>
-              <p className='font_regular text-center p-2'>
-                {work.languages}
-              </p>
+            <div className='my-1 mx-4 flex flex-col justify-between'>
+              <div>
+                <h3 className='sub_heading2'>
+                  {work.title}
+                </h3>
+                <Link href={work.siteUrl} target='blank' className='sub_heading3 text-blue-400 underline'>
+                  {work.urlTitle}
+                </Link>
+                {/* <p className='font_regular'>
+                  {work.description}
+                </p> */}
+                <p className='font_regular text-center'>
+                  {work.languages}
+                </p>
+              </div>
               <div className='flex justify-between p-2 max-sm:flex-col max-sm:gap-2'>
-                <Link href={work.siteUrl} target='blank' className='black_border font_regular text-center rounded-lg px-4 py-2'>Check Site</Link>
-                <Link href={work.detailsUrl} className='black_border font_regular text-center rounded-lg px-4 py-2'>Project Details</Link>
+                <Link href={work.siteUrl} target='blank' className='black_border font_regular text-center rounded-lg px-4 py-1 w-32 hover:bg-black hover:text-white'>Check Site</Link>
+                <Link href={work.detailsUrl} target='blank' className='black_border font_regular text-center rounded-lg px-4 py-1 w-32 hover:bg-black hover:text-white'>Github</Link>
               </div>
             </div>
             

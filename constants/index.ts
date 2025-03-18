@@ -96,23 +96,32 @@ export const SkillsLinks = [
 
 export const WorksLinks = [
   {
+    imgUrl: '/moviesA.png',
+    title: 'moviesA',
+    urlTitle: 'movieappa.onrender.com',
+    description: 'This is a movies app that utilises the tmdb api. The site also uses apprite to host the backend.',
+    languages: '#React #appwrite #JavaScript #Tailwind',
+    siteUrl:'https://movieappa.onrender.com/',
+    detailsUrl: 'https://github.com/R-Tedy/MovieAppA',
+  },
+  {
     imgUrl: '/run.png',
     title: 'StedyRun',
     urlTitle: 'stedyrun.vercel.app',
-    description: 'This is an App that showcases a product. It is a one page app that has a hero, about, details and call to action pages. Hope you like it.',
+    description: 'This is an App that showcases a product. It utilizes NextJs.',
     languages: '#Next.js #TypeScript #Tailwind #Sanityui',
     siteUrl:'https://stedyrun.vercel.app/',
-    detailsUrl: '/',
+    detailsUrl: 'https://github.com/R-Tedy/travel',
   },
-  // {
-  //   imgUrl: '/run.png',
-  //   title: 'StedyRun2',
-  //   urlTitle: 'stedyrun.vercel.app',
-  //   description: 'This is an App that showcases a product. It is a one page app that has a hero, about, details and call to action pages. Hope you like it.',
-  //   languages: '#Next.js #TypeScript #Tailwind #Sanityui',
-  //   siteUrl:'https://stedyrun.vercel.app/',
-  //   detailsUrl: '/',
-  // },
+  {
+    imgUrl: '/macrobeta.png',
+    title: 'Macrobeta',
+    urlTitle: 'macrobeta.vercel.app',
+    description: 'This is the company website for macrobeta engineering limites developed using NextJs and TailwindCSS',
+    languages: '#Next.js #TypeScript #Tailwind',
+    siteUrl:'https://macrobeta.vercel.app/',
+    detailsUrl: 'https://github.com/R-Tedy/macrobeta',
+  },
 ]
 
 export const FeedbackDetails = [
